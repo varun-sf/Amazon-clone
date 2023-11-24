@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.body{
+    background-color: rgb(198, 198, 243);
+    /* padding: 0px 5px 0px 5px; */
+}
+
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid seashell;
+    border-radius: 3%;
+}
+
+
+.navbar{
+    height: 60px;
+   background-color: #0F1111;
+   color: white;
+   display: flex;
+   justify-content: space-evenly;
+
+  
+   
+}
+
+/* Nav- left side */
+.nav-left{
+    height: 60px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo{
+    height:50px;
+    width: 125px;
+    padding: 1px 8px 1px 6px;
+    
+}
+.logo{
+    height:50px;
+    width:100px;
+    background-image: url("Amazon-Emblem.jpg");
+    background-size: cover;
+}
+.address{
+    height: 50px;
+    width: 215px;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+    display: flex;
+   
+}
+.location-icon{
+    height: 18px;
+    width: 15px;
+    margin-top: 8px;
+}
+.location-icon i{
+    margin-top: 8px;
+}
+.main-address span{
+    color: #CCCCCC;
+    font-size: 12px;
+}
+.main-address p{
+    font-size: 14px;
+}
+
+/* Nav - middle part */
+
+.nav-search{
+   height: 100%;
+   width: 600px;
+   margin: 0px 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2.5px solid transparent;
+   /* padding: 10px 4px 10px 3px; */
+}
+
+.nav-search:active{
+    border: 2.5px solid rgb(255, 157, 0);
+    border-radius: 3%;
+}
+
+.search-items{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-search select{
+    height: 100%;
+    width: 50px;
+    background-color: #E6E6E6;
+    border: none;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+    font-size: 14px;
+}
+
+.nav-search select option{
+    font-size: 14px;
+}
+
+.nav-search input{
+  height: 100%;
+  width: 600px;
+  border:0;
+  padding: 0;
+  margin: 0;
+}
+
+
+.search-icon{
+    height: 100%;
+    width : 50px;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+   
+    background-color: rgb(255, 157, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* navbar right part */
+.nav-right{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag-icon-location{
+    height: 50px;
+    width: 75px;
+    padding: 0px 9px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.flag-icon-location select{
+    background-color: #0F1111;
+    color: white;
+    border: 0;
+    padding: 0;
+}
+.flag-icon{
+    height:20px;
+    width: 20px;
+    background-image: url("india.png");
+    background-size: cover;
+
+}
+.signin{
+  padding: 0px 9px 10px;
+  margin-left: 2px;
+}
+
+.orders{
+    padding: 0px 9px 10px;
+    margin-left: 2px;
+}
+
+.ut{
+  font-size: 12px;
+  margin-top: 9px;
+}
+
+.lt{
+  font-size: 14px;
+}
+.cart{
+    height: 50px;
+    margin: 5px 11px 0px 2px;
+    padding: 0px 9px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* panel----------- */
+
+.panel{
+    height: 39px;
+    background-color: #232F3E;
+    padding-left: 11px;
+    color: white;
+    display: flex;
+  
+}
+.panel-left{
+    height: 100%;
+    width: 74%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.ham-burger{
+    padding: 8px 9px;
+    display: flex;
+}
+.ham-burger p{
+    padding-left: 5px;
+}
+.panel-items{
+    display: flex;
+}
+.panel-items select{
+    height: 39px;
+    color: white;
+    background-color: #232F3E;
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+.items{
+    font-size: 14px;
+    margin: 5px 0px 6px;
+    padding: 8px 9px;
+}
+
+.panel-right{
+    height: 100%;
+    width: 26%;
+    background-image: url("launches.jpg");
+    background-image: cover;
+}
+
+/* Body----------------------- */
+.body-image{
+    background-image: url("body_image.jpg");
+    background-size: cover;
+    height: 600px;
+    
+}
+
+
+
+.all-boxes{
+    padding: 20px 0px;
+}
+.card-boxes{
+    margin-bottom: 15px;
+    height: 390px;
+     display: flex;
+     justify-content: space-evenly;
+     border-bottom: 2px solid rgb(198, 198, 243) ;
+}
+
+.boxes-rec{
+    height: 100%;
+    width: 310px;
+    margin: 0px 3px;
+    background-color: white;   
+    padding: 20px 10px;
+}
+
+.boxes-rec h2{
+    margin-bottom: 9px;
+}
+.box-img{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 0px 20px; */
+}
+
+.small-img{
+  height :100px;
+  width: 47%;
+  background-size: cover;
+}
+
+
+/* Spread card-------------- */
+.spread-card{
+    height: 320px;
+    width: 1530px;
+    margin: 15px 0px 15px;
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* foot-1 */
+
+.foot-1{
+    color: white;
+    background-color: #004B55;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-2{
+    background-color: #232F3E;
+    height: 494px;
+}
+.foot-3{
+    background-color: #131A22;
+    height: 222px;
+}
